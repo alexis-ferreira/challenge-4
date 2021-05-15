@@ -1,0 +1,169 @@
+body
+{
+    background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+}
+
+main
+{
+    width: 1440px;
+
+    display: flex;
+}
+
+main>.containerLeft
+{
+    width: 60%;
+
+    background-image: url(../images/bg-pattern-desktop.svg);
+    background-size: cover;
+}
+
+main .containerLeft>.containerDiv
+{
+    width: 60%;
+
+    margin: 0 auto;
+}
+
+main .containerLeft .containerDiv .header a>img
+{
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+
+main .containerLeft>.containerDiv>.comingSoon
+{
+    width: 370px;
+
+    margin-bottom: 30px;
+}
+
+main .containerLeft>.containerDiv .comingSoon>p
+{
+    font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+
+    text-transform: uppercase;
+
+    letter-spacing: 20px;
+
+    line-height: 60px;
+
+    color: hsl(0, 36%, 70%);
+}
+
+main .containerLeft>.containerDiv .comingSoon p>span
+{
+    font-weight: 600;
+
+    color: hsl(0, 6%, 24%);
+}
+
+main .containerLeft .containerDiv>.paragraph
+{
+    width: 435px;
+
+    margin-bottom: 45px;
+}
+
+main .containerLeft .containerDiv .paragraph>p
+{
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+
+    color: hsl(0, 36%, 70%);
+
+    line-height: 30px;
+}
+
+main .containerLeft .containerDiv .inputMail
+{
+    width: 70%;
+
+    position: relative;
+}
+
+main .containerLeft .containerDiv .inputMail>#email
+{
+    width: 100%;
+    height: 50px;
+
+    border: 1px solid hsl(0deg 36% 70% / 50%);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+    padding-left: 30px;
+
+    background: none;
+}
+
+main .containerLeft .containerDiv .inputMail>#submitMail
+{
+    height: 54px;
+    width: 100px;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+
+    color: white;
+
+    border: none;
+    border-radius: 50px;
+
+    background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+
+    position: absolute;
+    top: 0;
+    right: -65px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0px 10px 20px 0px hsl(0deg 36% 70% / 50%);
+
+    cursor: pointer;
+}
+
+main .containerLeft .containerDiv .inputMail>#submitMail:hover
+{
+    background: hsl(0, 80%, 86%);
+}
+
+main .containerLeft .containerDiv .inputMail input::placeholder
+{
+    color: hsl(0deg 36% 70% / 50%);
+
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
+
+main .containerLeft .containerDiv .inputMail #iconWarning
+{
+    position: absolute;
+    top: 15px;
+    right: 45px;
+
+    display: none;
+}
+
+main .containerLeft .containerDiv>p
+{
+    color: hsl(0, 76%, 84%);
+
+    margin-left: 30px;
+    margin-top: 10px;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+
+    display: none;
+}
+
+main>.img
+{
+    width: 40%;
+}
