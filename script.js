@@ -34,3 +34,22 @@ function emailVerif(e){
 }
 
 btnSubmit.addEventListener('click', emailVerif);
+
+function responsive(){
+    let img = document.createElement('img');
+    img.src = "./images/hero-mobile.jpg";
+    // console.log(img);
+
+    let divHeader = document.getElementsByClassName('header');
+    divHeader = divHeader[0];
+    // console.log(divHeader);
+
+    divHeader.insertAdjacentElement('afterend',img);
+
+    let imgRemove = document.getElementById('img');
+    imgRemove.remove();
+}
+
+if (screen.width <=375){
+    responsive();
+}
